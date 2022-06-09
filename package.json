@@ -1,0 +1,24 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "Nodejs First App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "keywords": [
+    "Nodejs",
+    "NPM"
+  ],
+  "author": "Zaki Mohammed",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
